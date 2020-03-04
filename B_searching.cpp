@@ -1,11 +1,13 @@
 #include<iostream>
+#include"Insertionsort.cpp"
 using namespace std;
 #define SIZE 7
 int B_Search(int list[],int data);
 
 int main()
 {
-	int list[]={5,18,23,34,55,66,88,99};
+	int list[]={100,88,99,77,98,66,33,41};
+	insertion(list,SIZE);
 	cout<<"Enter the number you want to search"<<endl;
 	int data;
 	cin>>data;
